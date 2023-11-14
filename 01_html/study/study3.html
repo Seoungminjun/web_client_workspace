@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>납품</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>납품자정보</legend>
+
+            <label for="nabname">1.납품자명(필수):</label>
+            <input 
+            type="text"
+            id="nabname"
+            name="nabname"
+            required>
+            <br>
+
+            <label for="email">2.email(필수):</label>
+            <input 
+            type="email"
+            name="nabEmail"
+            id="nabEmail"
+            placeholder="dkwj000@naver.com"
+            required>
+            <br>
+
+            <label for="nabhomepage">3.홈페이지</label>
+            <input 
+            type="url" 
+            name="nabhomepage" 
+            id="nabhomepage"
+            value="http://">
+            <br>
+
+            <label for="local">4.지역:</label>
+            <select name="area" id="area">
+                <option value="부" selected>부산</option>
+                <option value="서">서울</option>
+            </select>    
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>납품정보</legend>
+            <ol style="list-style: unset;">
+                <li>상품명(필수):
+                    <label for="productName"></label>
+                    <input 
+                    type="text"
+                    id="productName"
+                    name="productName"
+                    required>
+                    <br>
+                </li>
+                <li>납품수량(필수):
+                    <label for="cnt"></label>
+                    <input type="number" name="cnt" id="cnt"
+                    placeholder="최소 100"
+                    required
+                    min="100">
+
+                </li>
+                <li>납품등급(필수):
+                    <label for="score"></label>
+                    <input type="range" name="score" id="score"
+                    required value="50"
+                    >
+                    <br>
+                </li>
+                <li for="etc">기타사항:
+                    <textarea name="etc" id="etc" cols="30" rows="2"></textarea>
+
+
+                </li>
+            </ol>
+        </fieldset>
+        <input type="submit" value="send message">
+    </form>
+</body>
+</html>
