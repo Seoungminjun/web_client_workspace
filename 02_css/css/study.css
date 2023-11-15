@@ -1,0 +1,18 @@
+#img-wrapper{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+    
+}
+.sun1:hover{
+    box-shadow: 12px 12px 4px 3px grey
+}
+.sun2:hover{
+    box-shadow: 12px 12px 4px 3px grey
+}
+.sun3:hover{
+    box-shadow: 12px 12px 4px 3px grey
+}
