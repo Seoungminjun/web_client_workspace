@@ -14,11 +14,12 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #font2{
-    /* font-family: 'Dongle', sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 24px; */
+    /* font-family: 'Dongle', sans-serif; */
+    /* font-size: 48px; */
+    /* 300(light), 400(regular), 700(bold) */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* line-height: 24px;  */
     /* 모아쓰기 shorthand */
     /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
     font: italic bold 48px/48px 'Dongle', sans-serif;
