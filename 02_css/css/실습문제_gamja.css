@@ -1,0 +1,14 @@
+#container img {
+    width: 300px;
+    height: 200px;
+    
+}
+ul li{
+    list-style-type: none;
+}
+.prod-list li img{
+    display: inline;
+}
+.caption{
+    display: inline;
+}
